@@ -24,7 +24,6 @@ def hangman(word):
   count = 0
   limit = 5
   letters = list(word)
-  print(letters)
   guessed = []
   while count < limit:
       guess = input(f'Hangman Word: {display} Enter your guess: ').strip()
