@@ -34,7 +34,7 @@ def binary_search_rec(a_list, first, last, an_item):
         return False
 
 if __name__ == '__main__':
-    list_length=int(input("Enter length of lidt serach: "))
+    list_length=int(input("Enter length of sorted list for serach: "))
     a_list=[]
     for i in range (list_length):
         a_list.append(int(input(f"number{i+1}:")))
